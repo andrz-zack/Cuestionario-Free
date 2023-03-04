@@ -48,3 +48,7 @@ white-space: nowrap;
 border: 0;
 
 }
+/* coloca un texto en el html, antes de los elementos p */
+p::before{
+    content: "Question #";
+}
