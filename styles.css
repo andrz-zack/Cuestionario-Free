@@ -1,3 +1,12 @@
+/* *{
+    scroll-behavior: smooth;
+} */
+@media (prefers-reduced-motion: no-preference){
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
 body {
     background: #f5f6f7;
     color: #1b1b32;
@@ -105,8 +114,8 @@ input {
     
 }
 .info label{
-    width: 10%;
-    min-width: 55px;
+    width: 5%;
+    min-width: 100px;
   
 }
 .info label,
