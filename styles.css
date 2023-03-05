@@ -24,10 +24,17 @@ header {
 h1 {
     color:  #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align: center;
 }
 nav > ul{
     justify-content: space-evenly;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0px;
+    margin-block: 0;
+    height: 100%;
+
 }
 h1, h2 {
     font-family: 'Verdana', sans-serif;
@@ -71,4 +78,7 @@ li a {
 nav li:hover{
     background-color: yellowgreen;
     
+}
+main {
+    padding-top: 25px;
 }
