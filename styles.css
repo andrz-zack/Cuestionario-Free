@@ -95,7 +95,17 @@ section {
     margin: 1px 0 0 1px;
     padding: 0 3 0 1px;
      
-  }
+}
 input {
     font-size: 15px;
-  }
+}
+.info input{
+    width: 50%;
+    text-align: left;
+    
+}
+.info label{
+    width: 10%;
+    min-width: 55px;
+  
+}
